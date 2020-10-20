@@ -121,7 +121,7 @@ CLASS ZCL_ABAPGIT_OBJECT_DOCT IMPLEMENTATION.
     " no standard function to do this. SE61 does this
     " directly in its dialog modules
     ls_dokentry-username = sy-uname.
-    ls_dokentry-langu    = sy-langu.
+    ls_dokentry-langu    = mv_language.
     ls_dokentry-class    = c_id.
     MODIFY dokentry FROM ls_dokentry.
 

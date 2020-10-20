@@ -45,7 +45,7 @@ CLASS ZCL_ABAPGIT_OBJECT_SUSO IMPLEMENTATION.
 
     DATA:
       lv_docu_obj TYPE dokhl-object,
-      lv_dummy    TYPE sy-langu.
+      lv_dummy    TYPE sylangu.
 
     lv_docu_obj  = mv_objectname.
 
