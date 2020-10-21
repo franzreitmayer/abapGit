@@ -17,7 +17,7 @@ ENDCLASS.
 
 
 
-CLASS ZCL_ABAPGIT_OBJECT_AREA IMPLEMENTATION.
+CLASS zcl_abapgit_object_area IMPLEMENTATION.
 
 
   METHOD zif_abapgit_object~changed_by.
